@@ -1,0 +1,100 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jocelyn</title>
+
+    <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="hero">
+    <img src="images/5.jpg" alt="Self Portrait">
+    <div class="hero-title">Jocelyn</div>
+
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="performances.html">Performances</a>
+      <a href="media.html">Media</a>
+    </nav>
+  </div>
+
+  <div class="bio-section" data-aos="fade-up" data-aos-delay="200">
+    <div class="bio-text">
+      <h2>About Myself</h2>
+      <p>Jocelyn Nguyen is a multidisciplinary artist and vocalist. Her work blends memory, melancholy, and distortion. As a member of Vox Obscura, she builds sonic stories with ethereal vocals, minimal production, and surreal textures. The result feels intimate but distant, familiar but strange.</p>
+      <p>She started with classical piano and spoken word. Her sound took shape in quiet rooms, looping ideas late into the night. Her music holds both stillness and chaos. She explores identity, dream logic, and the quiet violence of time. Field recordings, voice fragments, and analog synths often appear in her tracks, adding a cinematic, ghostlike quality.</p>
+      <p>Her debut with Vox Obscura, Glass Rituals, introduced a voice that doesn’t shout but stays with you. She continues to create in both collaborative and immersive settings. Her work pushes the boundaries of vulnerability in a fractured world.</p>
+    
+    </div>
+    <div class="bio-image">
+      <img src="images/1.jpg" alt="Second Self Portrait">
+    </div>
+  </div>
+
+  <div class="social-section">
+    <h2>Follow me on social media</h2>
+    <div class="social-buttons">
+      <a href="https://www.facebook.com/profile.php?id=61574019413279" class="social-button">Facebook</a>
+      <a href="https://www.soundcloud.com/jocelyn-nguyen-truong" class="social-button">SoundCloud</a>
+      <a href="https://www.instagram.com/jocelynsaysyes" class="social-button">Instagram</a>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <div class="contact-section-logo">
+      <h2>Let's get in touch</h2>
+      <p>Interested in learning more or collaborating? Fill out some info and I’ll be in touch shortly. I can’t wait to hear from you!</p>
+    </div>
+  
+    <form class="contact-section-details" action="https://formspree.io/f/mldjwaql" method="POST">
+      <label>Name <span class="required">(required)</span></label>
+      <div class="name-fields">
+        <input type="text" name="first-name" placeholder="First Name" required>
+        <input type="text" name="last-name" placeholder="Last Name" required>
+      </div>
+  
+      <label>Email <span class="required">(required)</span></label>
+      <input type="email" name="email" placeholder="you@example.com" required>
+  
+      <label>Message <span class="required">(required)</span></label>
+      <textarea name="message" placeholder="Your message here..." required></textarea>
+  
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  
+
+    
+    
+  
+
+  <div class="simple-contact">
+    <div class="contact-logo">Jocelyn</div>
+    <div class="contact-details">
+      <h3>Contact</h3>
+      <p><a href="mailto:jocelynnguyen@gmail.com">jocelynnguyen@gmail.com</a><br>(555)-555-5555</p>
+    </div>
+  </div>
+  
+  <script src="scripts.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+  <button id="backToTop">↑</button>
+
+</body>
+</html>
