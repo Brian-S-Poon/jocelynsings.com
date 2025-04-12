@@ -376,8 +376,7 @@ nav {
 .video-wrapper video {
   width: 100%;
   max-width: 800px;
-  border: 2px solid #222;
-  border-radius: 10px;
+  
 }
 
 .video-content {
